@@ -1,0 +1,21 @@
+{
+    "version": "3.14.0",
+    "description": "Inso CLI",
+    "homepage": "https://docs.insomnia.rest/inso-cli/introduction",
+    "license": "Apache 2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kong/insomnia/releases/download/lib@3.14.0/inso-windows-3.14.0.zip"
+        }
+    },
+    "bin": "inso.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kong/insomnia/releases/download/lib@$version/inso-windows-$version.zip",
+                "extract_dir": "inso-windows-$version"
+            }
+        }
+    }
+}
