@@ -1,12 +1,12 @@
 {
-    "version": "1.27.1",
+    "version": "1.37.0",
     "description": "decK provides declarative configuration and drift detection for Kong.",
     "homepage": "https://github.com/kong/deck",
     "license": "Apache 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kong/deck/releases/download/v1.27.1/deck_1.27.1_windows_amd64.tar.gz",
-            "hash": "ad015cc61aca5f180bf895a3b3febae1e228f8eced257edf5ab6a2c57bfd596b"
+            "url": "https://github.com/Kong/deck/releases/download/v1.37.0/deck_1.37.0_windows_amd64.tar.gz",
+            "hash": "4c31576b2acb8d54c5e9063283e4ddbcd328b26846498c9f771e58160b1c931c"
         }
     },
     "bin": "deck.exe",
