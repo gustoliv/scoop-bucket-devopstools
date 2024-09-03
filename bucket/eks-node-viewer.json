@@ -9,7 +9,7 @@
             "hash": "3231856d7941af2f89ebebf0ac5bba5af8fda1edf6dbd9a5c6f9b33715978638"
         }
     },
-    "bin": "eks-node-viewer.exe",
+    "bin": "eks-node-viewer_Windows_x86_64.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
