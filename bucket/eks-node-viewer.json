@@ -10,8 +10,10 @@
         }
     },
     "bin": [
-        "eks-node-viewer_Windows_x86_64.exe",
-        "eks-node-viewer"
+        [
+            "eks-node-viewer_Windows_x86_64.exe",
+            "eks-node-viewer"
+        ]   
     ],        
     "checkver": "github",
     "autoupdate": {
