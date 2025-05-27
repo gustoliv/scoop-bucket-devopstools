@@ -1,0 +1,25 @@
+{
+  "version": "2.21.3",
+  "description": "Source code security analyzer from GitHub",
+  "homepage": "https://github.com/github/codeql-action",
+  "license": {
+      "identifier": "MIT",
+      "url": "https://github.com/github/codeql-action/blob/main/LICENSE"
+  },
+  "architecture": {
+      "64bit": {
+          "url": "https://github.com/github/codeql-action/releases/download/codeql-bundle-v2.21.3/codeql-bundle-win64.tar.gz",
+          "hash": "e37fbcf58456cd9f0d81d02b56b00543cf264c603ce1e95c9859bf1b80dd8078",
+          "extract_dir": "codeql"
+      }
+  },
+  "bin": "codeql.exe",
+  "checkver": "github",
+  "autoupdate": {
+      "architecture": {
+          "64bit": {
+              "url": "https://github.com/github/codeql-action/releases/download/codeql-bundle-v$version/codeql-bundle-win64.tar.gz"
+          }
+      }
+  }
+}
